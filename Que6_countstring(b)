@@ -1,1 +1,14 @@
-
+str = "Hrishitha21B01A0553"
+digit = cc = sc = 0
+for ch in str:
+   if ch.isdigit():
+      digit=digit+1
+   elif ch.isupper():
+      cc = cc + 1
+   elif ch.islower():
+       sc = sc + 1
+   else:
+      pass
+print(" Number of Capital case letters:", cc)
+print("Number of Smaller case letters:", sc)
+print(" Number of Digits:", digit)
